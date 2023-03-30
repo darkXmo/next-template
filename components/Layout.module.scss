@@ -1,0 +1,28 @@
+div.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  > nav {
+    height: 72px;
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    justify-content: space-between;
+    background-color: #2b373d;
+    color: #ffffff;
+  }
+
+  > main {
+    flex: 1;
+    overflow: auto;
+    padding: 12px;
+  }
+  > footer {
+    display: flex;
+    justify-content: center;
+    line-height: 40px;
+    color: #ffffff;
+    background-color: #2b373d;
+  }
+}
